@@ -1,299 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Ga Huy</title>
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <title>Ga Huy | Freelance UI Designer</title>
+    <meta name="description" content="addlater" />
+    <meta name="keywords" content="codrops, tympanus, mary lou, designer, portfolio, ui, app, web, user interface" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/pieces.css" />
+    <link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
+    <script>
+        document.documentElement.className = 'js';
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-
-    <!-- main css -->
-    <link href="css/style.css" rel="stylesheet">
-
-
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    </script>
 </head>
 
 <body>
-
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="pre-container">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
+    <svg class="hidden"><symbol id="icon-menu-alt" viewBox="0 0 24 24">
+				<title>menu alt</title>
+				<path d="M10.4,6H0V3h10.4C10.4,3,10.4,6,10.4,6z M10.4,10.5H0v3h10.4C10.4,13.5,10.4,10.5,10.4,10.5z M15.1,18H9v3h6.1V18z M23.4,6H13V3h10.4C23.4,3,23.4,6,23.4,6z M23.4,10.5H13v3h10.4C23.4,13.5,23.4,10.5,23.4,10.5z M23.5,18h-6.1v3h6.1V18z"/>
+			</symbol>
+		</svg>
+    <main>
+        <div class="pieces" style="background-image: url(img/normal-new.png)" data-img-alt="url(img/normal-new.png)" data-img-code="url(img/normal-new.png)"></div>
+        <div class="overlay overlay--hidden"></div>
+        <div class="content">
+            <div class="content__inner">
+                <div class="content__top">
+                    <h2 class="title">
+                        <span class="title__inner mode mode--code" data-switch data-glitch> My name is Ga Huy <br> UI Designer from Viet Nam </span>
+                    </h2>
+                    <div class="controls">
+                        <button class="btn btn--menu mode mode--design" data-switch>
+								<svg class="icon icon--menu"><use xlink:href="#icon-menu-alt"></use></svg>
+							</button>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul class="menu__inner">
+                        <li class="menu__item"><a href="https://dribbble.com/gahuy" class="menu__link" data-switch>works</a></li>
+                        <li class="menu__item"><a href="https://www.linkedin.com/in/ga-huy-ab6a7b64/" class="menu__link" data-switch>about</a></li>
+                        <li class="menu__item"><a href="https://gahuy.wordpress.com" class="menu__link" data-switch>blogs</a></li>
+                        <li class="menu__item"><a href=" mailto:gahuy93@gmail.com" class="menu__link" data-switch>contact <</a></li>
+                    </ul>
+                </div>
+                <div class="content__bottom">
+                    <!--social-network-->
+                    <div class="content__bottom">
+                        <div class="switch mode mode--design">
+                            <a class="switch__item switch__item--current">Dribbble</a>
+                            <a class="switch__item"><span class="mode mode--design" data-switch data-glitch>Instagram</span></a>
+                        </div>
+                        <!--social-network-end-->
+                        <div class="link-wrap">
+                            <a href="https://tympanus.net/codrops/?p=30725" class="contact-link mode mode--design" target="_blank">Source from Tympanus</a>
+                        </div>
+                    </div>
+                    <a class="pater mode mode--design" href=" mailto:gahuy93@gmail.com">
+                        <img src="sponsor/hire.svg" class="pater__img" />
+                        <h2 class="pater__title" aria-label="Hire">I am avaiable for<br> freelance job</h2>
+                        <p class="pater__desc">focus on user interface design. so if you need a clean & modern work, call me maybe </p>
+                    </a>
+                    <!--
+                <div class="basic--info">
+                    <p>e. gahuy93@gmail.com</p>
+                    <p>p. +84 94 3635 809 </p>
+                </div>
+-->
+                </div>
+                <!-- /content__inner-->
             </div>
-        </div>
-    </div>
-    <!-- end Preloader -->
-
-    <div class="container-fluid">
-        <!-- box header -->
-        <header class="box-header">
-            <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
-            </div>
-            <!-- box-nav -->
-            <a class="box-primary-nav-trigger" href="#0">
-                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
-            </a>
-            <!-- box-primary-nav-trigger -->
-        </header>
-        <!-- end box header -->
-
-        <!-- nav -->
-        <nav>
-            <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
-
-                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contact.html">contact me</a></li>
-
-
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
-            </ul>
-        </nav>
-        <!-- end nav -->
-
-        <!-- box-intro -->
-        <section class="box-intro">
-            <div class="table-cell">
-                <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
-                        <b class="is-visible">gahuy.</b>
-                        <b>&nbsp;design.</b>
-                        <b>drink.</b>
-                    </span>
-		        </h1>
-                <h5>everything you need to build your personal portfolio</h5>
-            </div>
-
-            <div class="mouse">
-                <div class="scroll"></div>
-            </div>
-        </section>
-        <!-- end box-intro -->
-    </div>
-
-    <!-- portfolio div -->
-    <div class="portfolio-div">
-        <div class="portfolio">
-            <div class="no-padding portfolio_container">
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6  fashion logo">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mockups in seconds</span>
-                                    <em>Fashion / Logo</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 ads graphics">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Floating mockups</span>
-                                    <em>Ads / Graphics</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 fashion ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Held by hands</span>
-                                    <em>Fashion / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-            </div>
-            <!-- end portfolio_container -->
-        </div>
-        <!-- portfolio -->
-    </div>
-    <!-- end portfolio div -->
-
-    <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
-        </div>
-    </footer>
-    <!-- end footer -->
-
-    <!-- back to top -->
-    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
-    <!-- end back to top -->
-
-
-
-    <!-- jQuery -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <!--  plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/animated-headline.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-
-
-    <!--  custom script -->
-    <script src="js/custom.js"></script>
-
+            <!-- /content -->
+            <div class="loading"></div>
+    </main>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
