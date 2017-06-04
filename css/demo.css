@@ -353,13 +353,6 @@ a:focus {
     background-color: #6dcc9e;
 }
 
-/*
-.switch:hover {
-    color: #232323;
-    background-color: #6dcc9e;
-}
-*/
-
 .switch__item::after {
     content: '';
     position: absolute;
