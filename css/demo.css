@@ -412,8 +412,9 @@ a:focus {
 .basic--info{
     text-align: left;
     font-family: "roboto mono";
-    font-size: 14px;
-    color: #656565;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #5a5a5a;
     float: left;
 }
 .basic--info p{
