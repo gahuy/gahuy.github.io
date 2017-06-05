@@ -413,21 +413,10 @@ a:focus {
 .basic--info p{
     margin: 0;
 }
-@media screen and (max-width: 767px){
-    .basic--info{
-        display: none;
-    }
-}
-
-@media screen and (max-height: 38.5em) {
-    .menu {
-        text-align: left;
-    }
-}
 
 @media screen and (max-width: 40em) {
     .content__top {
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
     .content__bottom {
         font-size: 0.85em;
