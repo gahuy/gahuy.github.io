@@ -439,10 +439,10 @@
 	DOM.body = document.body;
 	DOM.loading = document.querySelector('.loading');
 	DOM.switchCtrls = document.querySelector('.switch');
-	DOM.switchModeCtrls = {
-		'design' : DOM.switchCtrls.firstElementChild,
-		'code' : DOM.switchCtrls.lastElementChild
-	};
+	// DOM.switchModeCtrls = {
+	// 	'design' : DOM.switchCtrls.firstElementChild,
+	// 	'code' : DOM.switchCtrls.lastElementChild
+	// };
 	DOM.pieces = document.querySelector('.pieces');
 	DOM.glitchElems = document.querySelectorAll('[data-glitch]');
 	DOM.contact = {
