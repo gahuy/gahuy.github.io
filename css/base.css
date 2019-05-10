@@ -23,26 +23,15 @@ body {
 	font-family: Futura, 'Nunito Sans', sans-serif;
 }
 
-.demo-2 {
-	--color-text: #faf6f1;
-    --color-bg: #191817;
-    --color-link: #c3846e;
-    --color-link-hover: #fff;
-    --color-content-link: #FAF6F1;
-    --color-content-link-hover: #FAF6F1;
-    --color-heading: #4c4742;
-    --font-content: 'Antic Didone';
-}
-
 .demo-3 {
-	--color-text: #191a1b;
-    --color-bg: #c5a98a;
-    --color-link: #3c49b2;
-    --color-link-hover: #191b1b;
-    --color-content-text: #191b1b;
-    --color-content-link: #191b1b;
-    --color-content-link-hover: #191b1b;
-   	--color-content-secondary: #9f8465;
+	--color-text: #0E347A;
+    --color-bg: #B7FFE7;
+    --color-link: #1C52B6;
+    --color-link-hover: #0E347A;
+    --color-content-text: #0E347A;
+    --color-content-link: #0E347A;
+    --color-content-link-hover: #062661;
+   	--color-content-secondary: #71A3FF;
     --font-content: Prata;
 }
 
