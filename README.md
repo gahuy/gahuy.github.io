@@ -2,8 +2,6 @@
 
 Some SVG filters-powered distortion effects shown on images when hovering a link.
 
-![Image Title](link)
-
 [Article on Codrops](https://tympanus.net/codrops/?p=38971)
 
 [Demo](http://tympanus.net/Development/SVGImageHover/)
@@ -23,8 +21,3 @@ Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www
 
 
 [© Codrops 2019](http://www.codrops.com)
-
-
-
-
-
